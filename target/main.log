@@ -1,0 +1,192 @@
+23:08:45.510 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:08:48.385 request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+
+23:08:49.326 response time in milliseconds: 925.46
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3288
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 799fd1c82a5b795c-AMD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 15 Feb 2023 17:38:50 GMT
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1XRbAhYrSD%2FXJE%2B2D%2FYWl4vkRYLj0SOvVWUBgTqhj%2FASAkdHCAnIrDEpP3gb6mMKQBjLfRyg7LHLmLtrgRpxSnyvsjDfysmPJO2q9A%2BdbjWXgOVnjFvOrh%2BUFA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+23:08:49.816 [print] Response is:  {
+  "per_page": 6,
+  "total": 12,
+  "data": [
+    {
+      "last_name": "Lawson",
+      "id": 7,
+      "avatar": "https://reqres.in/img/faces/7-image.jpg",
+      "first_name": "Michael",
+      "email": "michael.lawson@reqres.in"
+    },
+    {
+      "last_name": "Ferguson",
+      "id": 8,
+      "avatar": "https://reqres.in/img/faces/8-image.jpg",
+      "first_name": "Lindsay",
+      "email": "lindsay.ferguson@reqres.in"
+    },
+    {
+      "last_name": "Funke",
+      "id": 9,
+      "avatar": "https://reqres.in/img/faces/9-image.jpg",
+      "first_name": "Tobias",
+      "email": "tobias.funke@reqres.in"
+    },
+    {
+      "last_name": "Fields",
+      "id": 10,
+      "avatar": "https://reqres.in/img/faces/10-image.jpg",
+      "first_name": "Byron",
+      "email": "byron.fields@reqres.in"
+    },
+    {
+      "last_name": "Edwards",
+      "id": 11,
+      "avatar": "https://reqres.in/img/faces/11-image.jpg",
+      "first_name": "George",
+      "email": "george.edwards@reqres.in"
+    },
+    {
+      "last_name": "Howell",
+      "id": 12,
+      "avatar": "https://reqres.in/img/faces/12-image.jpg",
+      "first_name": "Rachel",
+      "email": "rachel.howell@reqres.in"
+    }
+  ],
+  "page": 2,
+  "total_pages": 2,
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+23:08:49.962 [print] Expected email is:  lindsay.ferguson@reqres.in
+23:08:50.112 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:08:50.137 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+
+23:08:50.258 response time in milliseconds: 115.50
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3641
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 799fd1ce5b5a794d-AMD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 15 Feb 2023 17:38:51 GMT
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QjpaQ51d5SrTPGdGqeTZ5k68LGu%2BaTMIuA0WFmPEnVIZa9MSkfwLbI0C4hrhxB%2Bvczj4ZDKnVqLcbuFPere9hkTHl4KN3y5oGi2%2BJRNMeyrcnpi2ci6AHH%2FYJQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+23:08:50.266 [print] Response is:  {
+  "data": {
+    "last_name": "Weaver",
+    "id": 2,
+    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+    "first_name": "Janet",
+    "email": "janet.weaver@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+23:08:50.317 [print] Expected email is:  janet.weaver@reqres.in
+23:08:50.435 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:08:50.479 request:
+1 > GET https://reqres.in/api/users/23
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+
+23:08:50.879 response time in milliseconds: 396.86
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: EXPIRED
+1 < CF-RAY: 799fd1d08f15795c-AMD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Length: 2
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 15 Feb 2023 17:38:51 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DSCmx%2FH%2F4gcqViY6GLkf1nbQHPIwZJkiu9ahUFug%2FaWGDUI3B%2FS%2B%2BvlUQxWHHU%2FxxHPH4d8vfwAmWPA317GxmXvbBx5wDqtaJCJD0rIXrk15%2Bh%2Bo3ML94ngNWg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{}
+
+23:08:50.884 [print] Response is:  {
+}
+
+23:08:50.927 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:08:50.976 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+{"name":"morpheus","job":"leader"}
+
+23:08:51.368 response time in milliseconds: 388.54
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 799fd1d39c827941-AMD
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 15 Feb 2023 17:38:52 GMT
+1 < Etag: W/"54-5hgeWeuLDxvlkbP/Gk+TbCQEGCU"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yQrM4xdz2L5zb3wj65Ihx6WW7hxLTGI%2BYn8aIYF7tdGGgyk3%2B1lat2ozyOchVb94rwmErOiOhWp%2BiHfBOhRB2po2tgPBQcPkrV8wvUQKHP0T1o1%2BOPHwccaebw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"name":"morpheus","job":"leader","id":"274","createdAt":"2023-02-15T17:38:52.323Z"}
+
+23:08:51.372 [print] Response is:  {
+  "createdAt": "2023-02-15T17:38:52.323Z",
+  "name": "morpheus",
+  "id": "274",
+  "job": "leader"
+}
+
